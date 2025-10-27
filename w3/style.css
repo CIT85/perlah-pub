@@ -1,0 +1,19 @@
+html {
+    font-size: 20px;
+    text-align: center;
+}
+body {
+    background-color: #a4af8a;
+    color: #f7f4f2;
+}
+a {
+    color: #7b6a6a;
+ 
+}
+a:visited {
+    color: #e5c090;
+}
+a:hover,
+a:active {
+color: black;
+}
