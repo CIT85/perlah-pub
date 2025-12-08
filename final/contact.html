@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <meta name="author" content="Perla Hernandez">
+    <meta name="description" content="Book Nook contact page">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Nook - Contact</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+
+<body id="top">
+    <header>
+        <h1>Book Nook</h1>
+        <nav aria-label="primary-nav">
+            <h2 class="hide">Menu</h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+
+                <li><a href="the-dnf-pile.html">The DNF Pile</a></li>
+
+                <li><a href="reading-tools.html">Reading Tools</a></li>
+
+                <li><a href="the-kept-shelf.html">The Kept Shelf</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contact-page">
+        <section>
+            <h2>Contact</h2>
+            <p>Hi, I am Perla, the reader behind Book Nook. I created this site as a place to keep track of what I am reading and to be honest about what I loved, what I did not finish, and what surprised me. If you want to share a book recommendation, offer feedback about the site, or just talk reading habits, you can use this form to reach out.</p>
+        </section>
+
+        <section class="contact-form">
+            <h2>Get In touch</h2>
+            <form>
+                <fieldset>
+                    <legend>
+                        Contact Book Nook
+                    </legend>
+
+                    <ul class="form-list">
+                        <li>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </li>
+
+                    <li>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </li>
+
+                    <li>
+                        <label for="reason">Reason For Reaching Out</label>
+
+                        <select name="reason" id="reason" required>
+                            <option value="">Please choose one</option>
+                            <option value="book-rec">Book recommendation</option>
+                             <option value="site-feedback">Feedback about the site</option>
+                            <option value="reading-chat">Just want to talk about books</option>
+                            <option value="other">Something else</option>
+                        </select>
+                    </li>
+
+                    <li>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </li>
+                    </ul>
+                    <button type="submit">Send Message</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+      <!--Section ?: Footer-->
+    <footer>
+        <nav>
+            <h2 class="no-underline">Site Links</h2>
+            <ul>
+                <li>
+                    <a href="https://chat.openai.com" target="_blank">Tools</a>
+                </li>
+
+                <li><a href="site.html">Sitemap</a></li>
+
+                <li><a href="newsletter.html">Newsletter</a></li>
+
+                <li> <a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <address><mark>For notes: example@gmail.com</mark></address>
+        <p class="copyright">&copy; 2025 Perla Hernandez</p>
+    </footer>
+    <a href="#top" class="back-to-top" aria-label="Back to top">&#8593;</a>
+</body>
+
+</html>
