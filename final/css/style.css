@@ -155,12 +155,9 @@ button.btn {
     color: #f4efe6;
     text-decoration: none;
     border-radius: 3px;
-    margin-top: 0.5rem;
     text-transform: uppercase;
     letter-spacing: 0.08rem;
     border: none;
-    cursor: pointer;
-    font-family: "Courier Prime", monospace;
 }
 
 /* visited state for anchor buttons */
@@ -176,7 +173,6 @@ button.btn:focus {
     background-color: #A5A58D;
     color: #f4efe6;
 }
-
 
 /* TABLE STYLING */
 table {
@@ -307,7 +303,6 @@ img {
     margin: 0.5rem;
 }
 
-/* QUOTES STYLING */
 .lines {
     text-align: center;
     column-span: all;
@@ -331,21 +326,6 @@ img {
 .quotes blockquote {
     margin: 1.5rem 0;
     min-height: 6rem;
-}
-
-.learn-btn {
-    display: inline-block;
-    padding: 0.5rem 1rem;
-    background-color: #2F3B32;
-    color: #f4efe6;
-    text-decoration: none;
-    border-radius: 3px;
-    margin-top: 0.5rem;
-    text-transform: uppercase;
-}
-
-.learn-btn:visited {
-    color: #f4efe6;
 }
 
 /* Explore Cards Styling*/
@@ -398,13 +378,13 @@ img {
     line-height: 20px;
 }
 
-.explore-card .learn-btn {
-    margin-top: auto;
-    align-self: center;
-}
-
 .top-heading {
     margin: 32px 0 10px 0;
+}
+
+.explore-card .btn {
+    margin-top: auto;
+    align-self: center;
 }
 
 /* ---- SITE PAGE ---- */
