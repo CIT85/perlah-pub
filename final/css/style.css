@@ -88,8 +88,7 @@ header nav a {
     text-decoration: none;
     color: #3B3028;
     text-transform: uppercase;
-    font-size: 0.9rem;
-    letter-spacing: 0.06em;
+    font-size: 1rem;
     white-space: nowrap;
 }
 
@@ -218,7 +217,7 @@ img {
 }
 
 /* ---- HOME PAGE ---- */
-/* WELCOME STYLING */
+
 .hero-layout {
     display: grid;
     grid-template-columns: 1fr;
@@ -402,7 +401,6 @@ img {
     margin: 2.5rem auto 2.5rem;
     display: grid;
     grid-template-columns: 1fr;
-    /* mobile: 1 column */
     gap: 2rem;
     text-align: left;
     position: relative;
@@ -710,12 +708,56 @@ h4 {
     font-size: 0.9rem;
 }
 
+
+/* ---- ABOUT PAGE ---- */
+.about-page {
+    margin-bottom: 3rem;
+}
+
+.about-hero {
+    margin: 2rem auto 2.5rem;
+    min-height: 220px;
+    border-radius: 8px;
+
+    background-image: url("../img/about-hero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-hero h2 {
+    margin: 0;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    font-size: 1.8rem;
+    letter-spacing: 0.18rem;
+    background-color: rgba(244, 239, 230, 0.85);
+    border-radius: 6px;
+}
+
+
+.about-content,
+.about-future {
+    max-width: 750px;
+    margin: 0 auto 2.5rem;
+    padding: 0 1rem;
+}
+
+
+.about-content h3,
+.about-future h3 {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+
 /* ---- NEWSLETTER PAGE ---- */
-/* INTRO STYLING*/
 .intro {
     margin: 2rem auto 3rem;
     text-align: left;
-    /* overrides global settings*/
 }
 
 .intro-hd {
@@ -723,7 +765,6 @@ h4 {
 }
 
 .intro-content {
-    /* keeps things side by side*/
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -751,7 +792,6 @@ h4 {
     flex: 1 1 auto;
 }
 
-/* FOCUS STYLING*/
 .focus {
     margin: 0 auto 3rem;
     display: grid;
@@ -779,7 +819,6 @@ h4 {
     line-height: 1.5;
 }
 
-/* REOCCURRENCE STYLING*/
 .reoccurrence {
     margin: 0 auto 3rem;
     display: grid;
@@ -933,7 +972,6 @@ h4 {
     text-align: left;
 }
 
-/* intro text similar to other pages */
 .contact-intro {
     max-width: 650px;
     margin: 0 auto 2rem;
@@ -949,7 +987,6 @@ h4 {
     line-height: 1.6;
 }
 
-/* simple card like other sections */
 .contact-form {
     max-width: 650px;
     margin: 0 auto;
@@ -977,7 +1014,6 @@ h4 {
     text-align: center;
 }
 
-/* list used instead of divs */
 .form-list {
     list-style-type: none;
     padding: 0;
