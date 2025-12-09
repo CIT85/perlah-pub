@@ -73,3 +73,5 @@ Book Nook is built with accessibility in mind so the content stays readable, cle
 - **ARIA labels on navigation** to support users who rely on screen readers.
 - **Responsive layout**, allowing content to reflow naturally on different screen sizes without forcing horizontal scrolling.
 
+## Hero Image Design
+- I chose this image for the About page because it matched the style of my site. It appears at the top of the page in a hero section. I used background-size: cover so the image could fill the space and adjust on different screen sizes. I centered the heading over thee image and added a light background behind the text to keep the contrast readable.
